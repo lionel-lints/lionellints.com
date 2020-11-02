@@ -6,7 +6,7 @@ const Layout = styled.main`
   height: 100vh;
   width: 100vw;
   display: grid;
-  background-color: #f9f5f1;
+  background-color: #a9b5a7;
   grid-template-rows: repeat(12, 1fr);
   grid-template-columns: repeat(12, 1fr);
 `
@@ -16,9 +16,6 @@ const App = () => {
   return (
     <Layout>
       <Content />
-      {/*   Blurb */}
-      {/*   Empty line */}
-      {/*   About me */}
     </Layout>
   )
 }
