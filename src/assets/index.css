@@ -35,3 +35,36 @@ body {
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
+
+/* Webfont: Orpheus Pro */
+@font-face {
+    font-family: 'OrpheusPro';
+    src: url('./fonts/Orpheus-Pro.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'OrpheusProBold';
+    src: url('./fonts/Orpheus-Pro-Bold.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'OrpheusProItalic';
+    src: url('./fonts/Orpheus-Pro-Italic.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'OrpheusProMedium';
+    src: url('./fonts/Orpheus-Pro-Medium.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

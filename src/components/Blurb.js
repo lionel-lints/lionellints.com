@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Layout = styled.h2`
   font-family: BeatriceSemiboldItalic;
-  color: #d7c1c1;
+  color: #fb6c67;
   grid-row-start: 1;
   grid-row-end: 2;
 `
