@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 import Blurb from './Blurb.js'
 import About from './About.js'
+import Logo from '../assets/lionel_has_an_idea.jpg'
 
 const ContentSpacing = styled.section`
   /* grid child styles */
@@ -18,12 +19,21 @@ const EmptyRow = styled.div`
   grid-row-end: 3;
 `
 
+const LogoImg = styled.img`
+  height: 200px;
+  width:auto;
+  overflow: hidden;
+  border-radius: 200px;
+`
+
 const Content = () => {
   return (
     <ContentSpacing>
+      <LogoImg src={Logo}/>
       <Blurb />
       <EmptyRow />
       <About />
+
     </ContentSpacing>
   )
 }
