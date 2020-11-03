@@ -1,41 +1,52 @@
 import styled from 'styled-components'
 
-import Content from './Content.js'
+import Header from './Header.js'
+import Splash from './Splash.js'
 
-const Layout = styled.main`
-  height: 100vh;
+import Section from './Section.js'
+
+const Layout = styled.div`
   width: 100vw;
-  display: grid;
   background-color: #f8dfdb;
-
-  grid-template-rows: repeat(12, 1fr);
-  grid-template-columns: repeat(12, 1fr);
 `
 
-const Header = styled.header`
-  width: 90vw;
-
-  /* grid child styles */
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 1;
-  grid-row-end: 2;
-
-  display: flex;
-  justify-content: space-between;
-  padding-left: 5vw;
-  padding-right: 5vw;
+const MainContent = styled.main`
+  margin-left: 10vw;
+  margin-right: 10vw;
 `
 
 
 const App = () => {
   return (
     <Layout>
-      <Header>
-        <h1>Lionel Lints</h1>
-        <h1>Contact</h1>
-      </Header>
-      <Content />
+      <Header name="Lionel Lints"/>
+      <MainContent>
+        <Splash />
+        <Section>
+          {/* Techologies Title */}
+          {/* Techologies Content */}
+        </Section>
+        <Section>
+          {/* Interests Title */}
+          {/* Interests Content */}
+        </Section>
+        <Section>
+          {/* Echo Echo Title */}
+          {/* Echo Echo Content */}
+        </Section>
+        <Section>
+          {/* Enlitic Title */}
+          {/* Enlitic Content */}
+        </Section>
+        <Section>
+          {/* Galvanize Title */}
+          {/* Galvanize Content */}
+        </Section>
+        <Section>
+          {/* More on linkedin link */}
+        </Section>
+      </MainContent>
+      {/* Footer GET IN TOUCH link */}
     </Layout>
   )
 }

@@ -1,30 +1,29 @@
 import styled from 'styled-components'
 
 const Layout = styled.div`
-  grid-row-start: 3;
-  grid-row-end: 9;
+  grid-column-start: 4;
+  grid-column-end: 9;
+  &:first-child {
+    margin: 0;
+  }
 `
-const Sentence = styled.p`
-  font-family: BeatriceLightItalic;
-  font-size: 20px;
-  color: black;
-  margin: 15px;
+const Sentence = styled.h4`
+  font-family: OrpheusProBold;
+  font-size: 30px;
+  color: #FB6C67;
 `
 
 const About = () => {
   return (
     <Layout>
       <Sentence>
+        Lionel Lints is a software engineer and educator.
+      </Sentence>
+      <Sentence>
         He leads development teams to envision and build extensible, scalable applications and reliable, distributed web systems.
       </Sentence>
       <Sentence>
-        Primarily he loves working with teams of smart people who want to think deeply and  have fun solving interesting business problems with technology.
-      </Sentence>
-      <Sentence>
-        He's taught many, many students about web development and loves to teach and mentor others.
-      </Sentence>
-      <Sentence>
-        He's most at home building complex interfaces that help make deep learning and artificial intelligence useable and meaningful.
+        He's taught many, many students about web development and loves to teach and mentor others. He's most at home building complex interfaces that help make deep learning and artificial intelligence useable and meaningful.
       </Sentence>
     </Layout>
   )

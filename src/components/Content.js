@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-import Blurb from './Blurb.js'
 import About from './About.js'
 import Logo from '../assets/lionel_has_an_idea.jpg'
 
@@ -30,7 +29,6 @@ const Content = () => {
   return (
     <ContentSpacing>
       <LogoImg src={Logo}/>
-      <Blurb />
       <EmptyRow />
       <About />
 
