@@ -95,7 +95,7 @@ const App = () => {
             <h3>Technologies</h3>
           </StyledTitle>
           <StyledContent>
-            {technologies.map((item) => <div>{item}</div>)}
+            {data.technologies.map((item) => <div>{item}</div>)}
           </StyledContent>
         </StyledTechSection>
         <StyledTechSection>
@@ -103,7 +103,7 @@ const App = () => {
             <h3>Fun Stuff</h3>
           </StyledTitle>
           <StyledContent>
-            {interests.map((item) => <div>{item}</div>)}
+            {data.interests.map((item) => <div>{item}</div>)}
           </StyledContent>
         </StyledTechSection>
         <Section>
