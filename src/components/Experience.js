@@ -30,7 +30,7 @@ const StyledBlurb = styled.div`
   grid-column-end: 9;
   color: #121111;
   font-family: OrpheusProMedium;
-  font-size: 28px;
+  font-size: 24px;
 `
 const Experience = ({ company, role, dates, blurb }) => {
   return (
