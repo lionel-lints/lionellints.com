@@ -5,6 +5,9 @@ import Splash from './Splash.js'
 
 import Section from './Section.js'
 
+import LionelImg from '../assets/lionel_has_an_idea.jpg'
+
+
 const Layout = styled.div`
   width: 100vw;
   background-color: #f8dfdb;
@@ -60,6 +63,13 @@ const StyledContent = styled.div`
 const data = {
   firstName: 'Lionel',
   lastName: 'Lints',
+  image: LionelImg,
+  imageAlt: 'Lionels Profile',
+  aboutBlurb: [
+        'Lionel Lints is a software engineer and educator.',
+        'He leads development teams to envision and build extensible, scalable applications and reliable, distributed web systems.',
+        'He\'s taught many, many students about web development and loves to teach and mentor others. He\'s most at home building complex interfaces that help make deep learning and artificial intelligence useable and meaningful.'
+  ],
   technologies: ['Javascript', 'Python', 'Ruby','React', 'Django', 'Rails', 'Angular', 'Flask', 'SQL', 'Node','Express', 'Docker'],
   interests:  ['Surfing', 'Rock Climbing', 'Chess', 'Bridge', 'Zen', 'Guitar','Experimental Writing', 'Coffee'] ,
   experience: [
@@ -89,7 +99,7 @@ const App = () => {
     <Layout>
       <Header name={`${data.firstName} ${data.lastName}`}/>
       <MainContent>
-        <Splash />
+        <Splash src={data.image} alt={data.imageAlt} aboutBlurb={data.aboutBlurb} />
         <StyledTechSection>
           <StyledTitle>
             <h3>Technologies</h3>

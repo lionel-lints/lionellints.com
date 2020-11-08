@@ -13,18 +13,16 @@ const Sentence = styled.h4`
   color: #FB6C67;
 `
 
-const About = () => {
+const About = ({ blurb }) => {
   return (
     <Layout>
-      <Sentence>
-        Lionel Lints is a software engineer and educator.
-      </Sentence>
-      <Sentence>
-        He leads development teams to envision and build extensible, scalable applications and reliable, distributed web systems.
-      </Sentence>
-      <Sentence>
-        He's taught many, many students about web development and loves to teach and mentor others. He's most at home building complex interfaces that help make deep learning and artificial intelligence useable and meaningful.
-      </Sentence>
+      {blurb.map((line) => {
+        return (
+          <Sentence>
+            {line}
+          </Sentence>
+        )
+      })}
     </Layout>
   )
 }
