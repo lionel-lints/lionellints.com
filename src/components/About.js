@@ -16,9 +16,9 @@ const Sentence = styled.h4`
 const About = ({ blurb }) => {
   return (
     <Layout>
-      {blurb.map((line) => {
+      {blurb.map((line, i) => {
         return (
-          <Sentence>
+          <Sentence key={i}>
             {line}
           </Sentence>
         )

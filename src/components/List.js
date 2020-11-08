@@ -52,7 +52,7 @@ const List = ({ title, list }) => {
         <h3>{title}</h3>
       </StyledTitle>
       <StyledContent>
-        {list.map((item) => <div>{item}</div>)}
+        {list.map((item, i) => <div key={i}>{item}</div>)}
       </StyledContent>
     </StyledSection>
   )

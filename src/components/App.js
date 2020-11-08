@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
+import Experience from './Experience.js'
 import Header from './Header.js'
-import Splash from './Splash.js'
 import List from './List.js'
 import Section from './Section.js'
+import Splash from './Splash.js'
 
 import LionelImg from '../assets/lionel_has_an_idea.jpg'
 
@@ -30,27 +31,30 @@ const data = {
   ],
   technologies: ['Javascript', 'Python', 'Ruby','React', 'Django', 'Rails', 'Angular', 'Flask', 'SQL', 'Node','Express', 'Docker'],
   interests:  ['Surfing', 'Rock Climbing', 'Chess', 'Bridge', 'Zen', 'Guitar','Experimental Writing', 'Coffee'] ,
-  experience: [
+  experiences: [
     {
       company: 'Echo Echo',
       role: 'CTO',
-      dates: '2019-Present',
+      dates: '2019 -> Present',
       blurb: 'Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.',
     },
     {
       company: 'Enlitic',
       role: 'Senior Software Engineer',
-      dates: '2017-2019',
+      dates: '2017 -> 2019',
       blurb: 'Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.',
     },
     {
       company: 'Galvanize',
       role: 'Web Development Instructor & Software Engineer',
-      dates: '2016-2017',
-      blurb: 'Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.',
+      dates: '2016 -> 2017',
+      blurb: `Lionel lectured and ran classes for subjects including: JavaScript, NodeJS/Express, React, AngularJS, SQL, Rails, Python, and data structures & algorithms (among others). He built an internal application that used Express, Postgres, React, and Redux to allow instructors to track and support the learning and development of other instructors. He worked on the development team to grow the learning management system using Rails and React.`
     }
   ]
 }
+
+const LinkedinLink = styled.a`
+`
 
 const App = () => {
   return (
@@ -60,20 +64,19 @@ const App = () => {
         <Splash src={data.image} alt={data.imageAlt} aboutBlurb={data.aboutBlurb} />
         <List title={'Technologies'} list={data.technologies} />
         <List title={'Fun Stuff'} list={data.interests} />
+        { data.experiences.map((exp, i) => {
+          return (
+            <Experience
+              key={i}
+              blurb={exp.blurb}
+              company={exp.company}
+              role={exp.role}
+              dates={exp.dates}
+            />
+          )
+        }) }
         <Section>
-          {/* Echo Echo Title */}
-          {/* Echo Echo Content */}
-        </Section>
-        <Section>
-          {/* Enlitic Title */}
-          {/* Enlitic Content */}
-        </Section>
-        <Section>
-          {/* Galvanize Title */}
-          {/* Galvanize Content */}
-        </Section>
-        <Section>
-          {/* More on linkedin link */}
+          <a>More on Linkedin</a>
         </Section>
       </MainContent>
       {/* Footer GET IN TOUCH link */}
