@@ -32,9 +32,12 @@ const StyledLinkedinSection = styled.section`
     grid-row-start: 2;
     grid-row-end: 3;
     text-decoration: none;
-    font-family: OrpheusProBold;
-    font-size: 20px;
+    font-family: OrpheusPro;
+    font-size: 28px;
     color: #FB6C67;
+    :hover {
+      opacity: 60%;
+    }
   }
 `
 const App = () => {
