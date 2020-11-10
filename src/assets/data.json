@@ -15,7 +15,7 @@
       "company": "Echo Echo",
       "role": "CTO",
       "dates": "2019 -> Present",
-      "blurb": "Lionel leads a team of 4 developers at Echo Echo. He architected, designed, built and deployed a web application that allows podcasters to upload audio which is converted to text using NLP. That text can be edited and the audio is edited to match. As CTO, Lionel is responsible for hiring, development, and success of the product."
+      "blurb": "Lionel leads a team of 4 developers at Echo Echo. He architected, designed, built and deployed a web application that allows podcasters to upload audio which is converted to text using NLP. That text can then be edited and the audio is edited to match. As CTO, Lionel is responsible for hiring, development, and success of the product."
     },
     {
       "company": "Enlitic",
