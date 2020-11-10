@@ -16,11 +16,12 @@ const StyledTitle = styled.div`
   grid-row-end: 4;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   h3 {
     font-family: OrpheusPro;
     color: #FB6C67;
     font-size: 28px;
+    margin: 0;
   }
 `
 
@@ -40,7 +41,6 @@ const StyledContent = styled.div`
     font-size: 20px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
   }
 `
 

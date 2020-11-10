@@ -18,6 +18,7 @@ const StyledTitle = styled.div`
   color: #FB6C67;
   h1 {
     font-family: OrpheusPro;
+    margin: 0;
   }
   h2 {
     font-family: OrpheusProItalic;
