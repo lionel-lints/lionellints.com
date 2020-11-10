@@ -60,9 +60,9 @@ const App = () => {
           )
         }) }
         <StyledLinkedinSection>
-        <a href={data.linkedinLink}>
-          More on Linkedin
-        </a>
+          <a href={data.linkedinLink}>
+            More on Linkedin
+          </a>
         </StyledLinkedinSection>
       </MainContent>
       <Footer />
