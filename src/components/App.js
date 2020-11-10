@@ -21,6 +21,22 @@ const MainContent = styled.main`
   margin-right: 10vw;
 `
 
+const StyledLinkedinSection = styled.section`
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  a {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-decoration: none;
+    font-family: OrpheusProBold;
+    font-size: 20px;
+    color: #FB6C67;
+  }
+`
 const App = () => {
   return (
     <Layout>
@@ -40,11 +56,13 @@ const App = () => {
             />
           )
         }) }
+        <StyledLinkedinSection>
         <a href={data.linkedinLink}>
           More on Linkedin
         </a>
+        </StyledLinkedinSection>
       </MainContent>
-        <Footer />
+      <Footer />
     </Layout>
   )
 }

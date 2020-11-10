@@ -4,38 +4,6 @@ body {
   margin: 0;
 }
 
-/* Webfont: Beatrice */
-@font-face {
-    font-family: 'BeatriceLight';
-    src: url('./fonts/Beatrice-Light.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'BeatriceSemibold';
-    src: url('./fonts/Beatrice-Semibold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'BeatriceSemiboldItalic';
-    src: url('./fonts/Beatrice-SemiboldItalic.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-@font-face {
-    font-family: 'BeatriceLightItalic';
-    src: url('./fonts/Beatrice-LightItalic.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
 /* Webfont: Orpheus Pro */
 @font-face {
     font-family: 'OrpheusPro';
