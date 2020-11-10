@@ -9,25 +9,25 @@
         "He's taught many, many students about web development and loves to teach and mentor others. He's most at home building complex interfaces that help make deep learning and artificial intelligence useable and meaningful."
   ],
   "technologies": ["Javascript", "Python", "Ruby","React", "Django", "Rails", "Angular", "Flask", "SQL", "Node","Express", "Docker"],
-  "interests":  ["Surfing", "Rock Climbing", "Chess", "Bridge", "Zen", "Guitar","Experimental Writing", "Coffee"] ,
+  "interests":  ["Surfing", "Rock Climbing", "Chess", "Bridge", "Meditation", "Guitar","Experimental Writing", "Coffee", "Music", "Sci-Fi", "Growth Mindset", "Hiking"] ,
   "experiences": [
     {
       "company": "Echo Echo",
       "role": "CTO",
       "dates": "2019 -> Present",
-      "blurb": "Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here."
+      "blurb": "Lionel leads a team of 4 developers at Echo Echo. He architected, designed, built and deployed a web application that allows podcasters to upload audio which is converted to text using NLP. That text can be edited and the audio is edited to match. As CTO, Lionel is responsible for hiring, development, and success of the product."
     },
     {
       "company": "Enlitic",
       "role": "Senior Software Engineer",
       "dates": "2017 -> 2019",
-      "blurb": "Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here.Lionel did some stuff here."
+      "blurb": "Lionel developed, deployed and maintained a web application which allowed radiologists to interact with, and record, x-ray and CT scan training data for deep learning modeling. Lionel also built a number of python ETL libraries and an Electron application. Lionel reorganized the database and APIs to be more performant and developed an application for DL integrations with the database."
     },
     {
       "company": "Galvanize",
       "role": "Web Development Instructor & Software Engineer",
       "dates": "2016 -> 2017",
-      "blurb": "Lionel lectured and ran classes for subjects including: JavaScript, NodeJS/Express, React, AngularJS, SQL, Rails, Python, and data structures & algorithms (among others). He built an internal application that used Express, Postgres, React, and Redux to allow instructors to track and support the learning and development of other instructors. He worked on the development team to grow the learning management system using Rails and React."
+      "blurb": "Lionel lectured and ran classes for subjects including: Javascript, Node/Express, React, Angular, SQL, Rails, Python, and data structures & algorithms (among others). He built an internal application that used Express, Postgres, React, and Redux to allow instructors to track and support the learning and development of other instructors. He worked on the development team to grow the learning management system using Rails and React."
     }
   ]
 }
