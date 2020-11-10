@@ -1,12 +1,14 @@
 import styled from 'styled-components'
 
+// Assets
 import data from '../assets/data.json'
-import LionelImg from '../assets/lionel_has_an_idea.jpg'
+import lionelImg from '../assets/lionel_has_an_idea.jpg'
 
+// Components
 import Experience from './Experience.js'
+import Footer from './Footer.js'
 import Header from './Header.js'
 import List from './List.js'
-import Section from './Section.js'
 import Splash from './Splash.js'
 
 const Layout = styled.div`
@@ -22,9 +24,9 @@ const MainContent = styled.main`
 const App = () => {
   return (
     <Layout>
-      <Header name={`${data.firstName} ${data.lastName}`}/>
+      <Header name={`${data.firstName} ${data.lastName}`} />
       <MainContent>
-        <Splash src={LionelImg} alt={data.imageAlt} aboutBlurb={data.aboutBlurb} />
+        <Splash src={lionelImg} alt={data.imageAlt} aboutBlurb={data.aboutBlurb} />
         <List title={'Technologies'} list={data.technologies} />
         <List title={'Fun Stuff'} list={data.interests} />
         { data.experiences.map((exp, i) => {
@@ -38,11 +40,11 @@ const App = () => {
             />
           )
         }) }
-        <Section>
-          <a>More on Linkedin</a>
-        </Section>
+        <a href={data.linkedinLink}>
+          More on Linkedin
+        </a>
       </MainContent>
-      {/* Footer GET IN TOUCH link */}
+        <Footer />
     </Layout>
   )
 }

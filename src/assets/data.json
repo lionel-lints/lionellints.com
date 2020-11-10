@@ -2,6 +2,7 @@
   "firstName": "Lionel",
   "lastName": "Lints",
   "imageAlt": "Lionels Profile",
+  "linkedinLink": "https://www.linkedin.com/in/lionellints",
   "aboutBlurb": [
         "Lionel Lints is a software engineer and educator.",
         "He leads development teams to envision and build extensible, scalable applications and reliable, distributed web systems.",

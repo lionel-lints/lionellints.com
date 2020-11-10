@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import { ContactMe } from './EmailLink.js'
+
 const HeaderElement = styled.header`
   display: flex;
   justify-content: space-between;
@@ -21,17 +23,13 @@ const HeaderElement = styled.header`
     font-family: OrpheusProBold;
     color: #FB6C67;
   }
-  a h2 {
-    color: #121111;
-    cursor: pointer;
-  }
 `
 
 const Header = ({ name }) => {
   return (
     <HeaderElement>
       <h2>{name}</h2>
-      <a><h2>Contact Me</h2></a>
+      <h2><ContactMe /></h2>
     </HeaderElement>
   )
 }
