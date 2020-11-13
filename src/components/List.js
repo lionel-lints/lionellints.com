@@ -15,12 +15,12 @@ const StyledTitle = styled.div`
   grid-row-start: 1;
   grid-row-end: 4;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   h3 {
     font-family: OrpheusPro;
     color: #FB6C67;
-    font-size: 28px;
+    font-size: 26px;
     margin: 0;
   }
 `
@@ -36,7 +36,7 @@ const StyledContent = styled.div`
   grid-gap: 10px;
 
   div {
-    font-family: OrpheusProMedium;
+    font-family: OrpheusPro;
     color: #FB6C67;
     font-size: 20px;
     display: flex;

@@ -29,11 +29,11 @@ const StyledLinkedinSection = styled.section`
   a {
     grid-column-start: 4;
     grid-column-end: 9;
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-row-end: 3;
     text-decoration: none;
     font-family: OrpheusPro;
-    font-size: 28px;
+    font-size: 20px;
     color: #FB6C67;
     :hover {
       opacity: 60%;

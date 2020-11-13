@@ -15,7 +15,7 @@ const StyledGetInTouchAnchor = styled(Obfuscate)`
 const StyledContactAnchor = styled(Obfuscate)`
   color: #121111;
   text-decoration: none;
-  font-family: OrpheusProBold;
+  font-family: OrpheusPro;
   :hover {
     opacity: 60%;
   }

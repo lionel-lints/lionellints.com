@@ -9,8 +9,9 @@ const Layout = styled.div`
 `
 const Sentence = styled.h4`
   font-family: OrpheusProBold;
-  font-size: 30px;
+  font-size: 28px;
   color: #FB6C67;
+  margin-top: 0;
 `
 
 const About = ({ blurb }) => {

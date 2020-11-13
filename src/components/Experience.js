@@ -14,14 +14,17 @@ const StyledTitle = styled.div`
   grid-column-end: 4;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   color: #FB6C67;
+  padding-right: 25%;
   h1 {
     font-family: OrpheusPro;
+    font-size: 26px;
     margin: 0;
   }
   h2 {
-    font-family: OrpheusProItalic;
+    font-family: OrpheusPro;
+    font-size: 16px;
     margin: 3px;
   }
 `
@@ -30,8 +33,8 @@ const StyledBlurb = styled.div`
   grid-column-start: 4;
   grid-column-end: 9;
   color: #121111;
-  font-family: OrpheusProMedium;
-  font-size: 24px;
+  font-family: OrpheusPro;
+  font-size: 20px;
 `
 const Experience = ({ company, role, dates, blurb }) => {
   return (

@@ -11,17 +11,16 @@ const HeaderElement = styled.header`
   padding-left: 5vw;
   padding-right: 5vw;
 
-  position: sticky;
   top: 0;
-  background-color: #f1d5d0;
   z-index: 1;
-  opacity: 80%;
-
-  border-bottom: 1px solid aliceblue;
 
   h2 {
     font-family: OrpheusProBold;
     color: #FB6C67;
+  }
+  h3 {
+    font-family: OrpheusPro;
+    font-size: 16px;
   }
 `
 
@@ -29,7 +28,7 @@ const Header = ({ name }) => {
   return (
     <HeaderElement>
       <h2>{name}</h2>
-      <h2><ContactMe /></h2>
+      <h3><ContactMe /></h3>
     </HeaderElement>
   )
 }

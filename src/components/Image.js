@@ -4,8 +4,8 @@ const StyledImage = styled.div`
   grid-column-start: 1;
   grid-column-end: 3;
 
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
