@@ -1,13 +1,13 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-import Section from './Section.js'
+import Section from "./Section.js";
 
 const StyledSection = styled(Section)`
   height: auto;
   /* grid parent styles */
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-`
+`;
 
 const StyledTitle = styled.div`
   grid-column-start: 1;
@@ -15,7 +15,7 @@ const StyledTitle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  color: #FB6C67;
+  color: #fb6c67;
   padding-right: 25%;
   h1 {
     font-family: OrpheusPro;
@@ -27,7 +27,14 @@ const StyledTitle = styled.div`
     font-size: 16px;
     margin: 3px;
   }
-`
+  @media (max-width: 890px) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    h2 {
+      margin: 3px 0;
+    }
+  }
+`;
 
 const StyledBlurb = styled.div`
   grid-column-start: 4;
@@ -35,7 +42,11 @@ const StyledBlurb = styled.div`
   color: #121111;
   font-family: OrpheusPro;
   font-size: 20px;
-`
+  @media (max-width: 890px) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+`;
 const Experience = ({ company, role, dates, blurb }) => {
   return (
     <StyledSection>
@@ -44,10 +55,8 @@ const Experience = ({ company, role, dates, blurb }) => {
         <h2>{role}</h2>
         <h2>{dates}</h2>
       </StyledTitle>
-      <StyledBlurb>
-        {blurb}
-      </StyledBlurb>
+      <StyledBlurb>{blurb}</StyledBlurb>
     </StyledSection>
-  )
-}
-export default Experience 
+  );
+};
+export default Experience;

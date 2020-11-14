@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-import { ContactMe } from './EmailLink.js'
+import { ContactMe } from "./EmailLink.js";
 
 const HeaderElement = styled.header`
   display: flex;
@@ -16,21 +16,23 @@ const HeaderElement = styled.header`
 
   h2 {
     font-family: OrpheusProBold;
-    color: #FB6C67;
+    color: #fb6c67;
   }
   h3 {
     font-family: OrpheusPro;
     font-size: 16px;
   }
-`
+`;
 
 const Header = ({ name }) => {
   return (
     <HeaderElement>
       <h2>{name}</h2>
-      <h3><ContactMe /></h3>
+      <h3>
+        <ContactMe />
+      </h3>
     </HeaderElement>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

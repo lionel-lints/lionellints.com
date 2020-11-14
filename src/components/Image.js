@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const StyledImage = styled.div`
   grid-column-start: 1;
@@ -14,12 +14,17 @@ const StyledImage = styled.div`
     height: 100%;
     width: auto;
   }
-`
+  @media (max-width: 890px) {
+    width: 80vw;
+    height: 80vw;
+    margin-bottom: 20px;
+  }
+`;
 const Image = ({ src, alt }) => {
   return (
     <StyledImage>
       <img src={src} alt={alt} />
     </StyledImage>
-  )
-}
-export default Image
+  );
+};
+export default Image;

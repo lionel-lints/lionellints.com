@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-import { GetInTouch } from './EmailLink.js'
+import { GetInTouch } from "./EmailLink.js";
 
 const StyledFooter = styled.footer`
   margin-left: 10vw;
@@ -12,16 +12,20 @@ const StyledFooter = styled.footer`
     grid-column-start: 4;
     grid-column-end: 9;
   }
-`
-
+  @media (max-width: 890px) {
+    height: 80px;
+    div {
+      grid-column-start: 1;
+    }
+  }
+`;
 
 const Footer = ({ href, text }) => {
   return (
     <StyledFooter>
       <GetInTouch />
     </StyledFooter>
-  )
-}
+  );
+};
 
-export default Footer 
-
+export default Footer;
