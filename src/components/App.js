@@ -1,24 +1,24 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 // Assets
-import data from "../assets/data.json";
-import lionelImg from "../assets/lionel_has_an_idea.jpg";
+import data from "../assets/data.json"
+import lionelImg from "../assets/lionel_has_an_idea.jpg"
 
 // Components
-import Experience from "./Experience.js";
-import Footer from "./Footer.js";
-import Header from "./Header.js";
-import List from "./List.js";
-import Splash from "./Splash.js";
+import Experience from "./Experience.js"
+import Footer from "./Footer.js"
+import Header from "./Header.js"
+import List from "./List.js"
+import Splash from "./Splash.js"
 
 const Layout = styled.div`
   background-color: #f8dfdb;
-`;
+`
 
 const MainContent = styled.main`
   margin-left: 10vw;
   margin-right: 10vw;
-`;
+`
 
 const StyledLinkedinSection = styled.section`
   height: 100px;
@@ -66,7 +66,7 @@ const App = () => {
               role={exp.role}
               dates={exp.dates}
             />
-          );
+          )
         })}
         <StyledLinkedinSection>
           <a href={data.linkedinLink}>More on Linkedin</a>
@@ -74,7 +74,7 @@ const App = () => {
       </MainContent>
       <Footer />
     </Layout>
-  );
-};
+  )
+}
 
-export default App;
+export default App

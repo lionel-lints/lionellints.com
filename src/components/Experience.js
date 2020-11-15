@@ -1,13 +1,13 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-import Section from "./Section.js";
+import Section from "./Section.js"
 
 const StyledSection = styled(Section)`
   height: auto;
   /* grid parent styles */
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-`;
+`
 
 const StyledTitle = styled.div`
   grid-column-start: 1;
@@ -34,7 +34,7 @@ const StyledTitle = styled.div`
       margin: 3px 0;
     }
   }
-`;
+`
 
 const StyledBlurb = styled.div`
   grid-column-start: 4;
@@ -46,7 +46,7 @@ const StyledBlurb = styled.div`
     grid-column-start: 1;
     grid-column-end: 9;
   }
-`;
+`
 const Experience = ({ company, role, dates, blurb }) => {
   return (
     <StyledSection>
@@ -57,6 +57,6 @@ const Experience = ({ company, role, dates, blurb }) => {
       </StyledTitle>
       <StyledBlurb>{blurb}</StyledBlurb>
     </StyledSection>
-  );
-};
-export default Experience;
+  )
+}
+export default Experience

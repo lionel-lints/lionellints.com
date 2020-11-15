@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Obfuscate from "react-obfuscate";
+import styled from "styled-components"
+import Obfuscate from "react-obfuscate"
 
 const StyledGetInTouchAnchor = styled(Obfuscate)`
   color: #fb6c67;
@@ -13,7 +13,7 @@ const StyledGetInTouchAnchor = styled(Obfuscate)`
   @media (max-width: 890px) {
     font-size: 40px;
   }
-`;
+`
 
 const StyledContactAnchor = styled(Obfuscate)`
   color: #121111;
@@ -22,7 +22,7 @@ const StyledContactAnchor = styled(Obfuscate)`
   :hover {
     opacity: 60%;
   }
-`;
+`
 
 export const GetInTouch = () => {
   return (
@@ -37,8 +37,8 @@ export const GetInTouch = () => {
         Get in Touch
       </StyledGetInTouchAnchor>
     </div>
-  );
-};
+  )
+}
 
 export const ContactMe = () => {
   return (
@@ -51,5 +51,5 @@ export const ContactMe = () => {
     >
       Contact Me
     </StyledContactAnchor>
-  );
-};
+  )
+}

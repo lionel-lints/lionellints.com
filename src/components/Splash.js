@@ -20,4 +20,5 @@ const Splash = ({ src, alt, aboutBlurb }) => {
     </SplashSection>
   )
 }
+
 export default Splash

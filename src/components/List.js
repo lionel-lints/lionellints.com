@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-import Section from "./Section.js";
+import Section from "./Section.js"
 
 const StyledSection = styled(Section)`
   height: 200px;
@@ -11,7 +11,7 @@ const StyledSection = styled(Section)`
     height: auto;
     grid-template-rows: 62px;
   }
-`;
+`
 
 const StyledTitle = styled.div`
   grid-column-start: 1;
@@ -27,7 +27,7 @@ const StyledTitle = styled.div`
     font-size: 26px;
     margin: 0;
   }
-`;
+`
 
 const StyledContent = styled.div`
   grid-column-start: 4;
@@ -51,7 +51,7 @@ const StyledContent = styled.div`
     grid-column-start: 1;
     grid-row-start: 2;
   }
-`;
+`
 
 const List = ({ title, list }) => {
   return (
@@ -65,7 +65,7 @@ const List = ({ title, list }) => {
         ))}
       </StyledContent>
     </StyledSection>
-  );
-};
+  )
+}
 
-export default List;
+export default List

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 const Layout = styled.div`
   grid-column-start: 4;
@@ -9,7 +9,7 @@ const Layout = styled.div`
   @media (max-width: 890px) {
     grid-column-start: 1;
   }
-`;
+`
 const Sentence = styled.h4`
   font-family: OrpheusProBold;
   font-size: 28px;
@@ -20,16 +20,16 @@ const Sentence = styled.h4`
       margin-bottom: 0;
     }
   }
-`;
+`
 
 const About = ({ blurb }) => {
   return (
     <Layout>
       {blurb.map((line, i) => {
-        return <Sentence key={i}>{line}</Sentence>;
+        return <Sentence key={i}>{line}</Sentence>
       })}
     </Layout>
-  );
-};
+  )
+}
 
-export default About;
+export default About
