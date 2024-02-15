@@ -4,30 +4,35 @@
   "imageAlt": "Lionels Profile",
   "linkedinLink": "https://www.linkedin.com/in/lionellints",
   "aboutBlurb": [
-        "Lionel Lints is a software engineer and educator.",
-        "He leads development teams to envision and build extensible, scalable applications and reliable, distributed web systems.",
-        "He's taught many, many students about web development and loves to teach and mentor others. He's most at home building complex interfaces that help make deep learning and artificial intelligence useable and meaningful."
+    "I'm a technical lead and senior software engineer who likes to ship quality code and has experience successfully working across all stages in the development lifecycle. I've built full-stack applications, libraries, APIs, ETLs and other tools to support machine learning in healthcare, recruitment, podcasting, and education. I have a track record of successfully driving the strategic direction, architecture design, prototyping, implementation, and deployment of complex applications and distributed systems.",
+"I am deeply committed to continuous growth & learning — both my own and that of my teammates and other software engineers. I've mentored dozens of junior and mid-career software engineers and am passionate about supporting diverse voices in the software community. I value working in supportive, team-driven environments; have honed my communication skills; and generally like to bring a positive, fun-loving attitude to my workplace. In my free time, I love playing music, surfing, practicing chess, and finding the intersection in art & code."
   ],
   "technologies": ["Javascript", "Python", "Ruby","React", "Django", "Rails", "Angular", "Flask", "SQL", "Node","Express", "Docker"],
   "interests":  ["Surfing", "Rock Climbing", "Chess", "Bridge", "Meditation", "Guitar","Experimental Writing", "Coffee", "Music", "Sci-Fi", "Growth Mindset", "Hiking"] ,
   "experiences": [
     {
+      "company": "Lever",
+      "role": "Senior Software Engineer, Tech Lead",
+      "dates": "2021 -> 2023",
+      "blurb": "I led the technical architecture and design of Lever’s system configuration team of 8 engineers, focusing over the last year on the global data compliance system. Our team built systems at scale which managed legally required, discrete data requirements for many millions of documents. As a lead on the team I built prototypes, wrote code, reviewed PRs, paired with other engineers, and generally pushed the project forward whenever and however needed. My focus was always on designing a system with a clear and sensible api that was both extensible and performant as the product grew, and was easily consumable by other engineering teams at the company."
+    },
+    {
       "company": "Echo Echo",
       "role": "CTO",
-      "dates": "2019 -> Present",
-      "blurb": "Lionel leads a team of 4 developers at Echo Echo. He architected, designed, built and deployed a web application that allows podcasters to upload audio which is converted to text using NLP. That text can then be edited and the audio is edited to match. As CTO, Lionel is responsible for hiring, development, and success of the product."
+      "dates": "2019 -> 2021",
+      "blurb": "At Echo Echo, I led a team of 4 developers. I architected, designed, built and deployed a web application that allows podcasters to upload audio which is converted to text using NLP. That text can then be edited and the audio is edited to match. As CTO, I was responsible for hiring, development, and success of the product."
     },
     {
       "company": "Enlitic",
       "role": "Senior Software Engineer",
       "dates": "2017 -> 2019",
-      "blurb": "Lionel developed, deployed and maintained a web application which allowed radiologists to interact with, and record, x-ray and CT scan training data for deep learning modeling. Lionel also built a number of python ETL libraries and an Electron application. Lionel reorganized the database and APIs to be more performant and developed an application for DL integrations with the database."
+      "blurb": "At Enlitic I developed, deployed and maintained a web application which allowed radiologists to interact with, and record, x-ray and CT scan training data for deep learning modeling. I also built a number of python ETL libraries and an Electron application. Lionel reorganized the database and APIs to be more performant and developed an application for DL integrations with the database."
     },
     {
       "company": "Galvanize",
       "role": "Web Development Instructor & Software Engineer",
       "dates": "2016 -> 2017",
-      "blurb": "Lionel lectured and ran classes for subjects including: Javascript, Node/Express, React, Angular, SQL, Rails, Python, and data structures & algorithms (among others). He built an internal application that used Express, Postgres, React, and Redux to allow instructors to track and support the learning and development of other instructors. He worked on the development team to grow the learning management system using Rails and React."
+      "blurb": "I lectured and ran classes for subjects including: Javascript, Node/Express, React, Angular, SQL, Rails, Python, and data structures & algorithms (among others). I built an internal application that used Express, Postgres, React, and Redux to allow instructors to track and support the learning and development of other instructors. I also worked on the development team to grow the learning management system using Rails and React."
     }
   ]
 }
